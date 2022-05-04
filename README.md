@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kev-the-python-dev/job-post-scraper">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/kev-the-python-dev/job-post-scraper/main/project_logo.png" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Job Post Scraper</h3>
