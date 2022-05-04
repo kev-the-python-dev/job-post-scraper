@@ -33,10 +33,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Job Post Scraper</h3>
 
   <p align="center">
-    project_description
+    Parses xfield elements from various job postings and saves the titles & urls to a MongoDB database. 
     <br />
     <a href="https://github.com/kev-the-python-dev/job-post-scraper"><strong>Explore the docs »</strong></a>
     <br />
