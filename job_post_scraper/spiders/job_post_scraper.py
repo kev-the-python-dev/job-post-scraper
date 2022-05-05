@@ -7,7 +7,7 @@ from job_post_scraper.items import YCombItem
 
 # Specifically for YCombinator only
 class JobFinderSpider(Spider):
-    name = "job_finder"
+    name = "job_post_scraper"
     allowed_domains = ["news.ycombinator.com"]
     start_urls = [
             'https://news.ycombinator.com/jobs',
