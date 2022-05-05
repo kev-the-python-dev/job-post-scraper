@@ -16,6 +16,8 @@ class JobFinderSpider(Spider):
             ]
 
     def parse(self, response):
+        # May 4th Update -> might be more convenient to use response.selector instead of constructing our own Selector object.
+        # That way the response body is parsed only one time. Example --> questions = response.xpath('//tr[@class="athing"]')
         questions = Selector(response).xpath('//tr[@class="athing"]')
 
         for question in questions:
