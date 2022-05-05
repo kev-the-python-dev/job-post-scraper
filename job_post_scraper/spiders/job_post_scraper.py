@@ -22,7 +22,7 @@ class JobFinderSpider(Spider):
 
         for question in questions:
             item = YCombItem()
-            # extrac() is an older Scrapy method but will update to getall() as Scrapy docs claim it is more concise/readable when script scales in size
+            # May 4th Required update: getall() is more predictable vs extract() as it always returns a list of extracted results.
             item['title'] = question.xpath('td/a/text()').extract()[0]
             item['url'] = question.xpath('td/a[@class="titlelink"]/@href').extract()[0]
             yield item
