@@ -25,4 +25,5 @@ class JobFinderSpider(Spider):
             # May 4th Required update: getall() is more predictable vs extract() as it always returns a list of extracted results.
             item['title'] = question.xpath('td/a/text()').extract()[0]
             item['url'] = question.xpath('td/a[@class="titlelink"]/@href').extract()[0]
+            item['url'] = 'No'
             yield item
