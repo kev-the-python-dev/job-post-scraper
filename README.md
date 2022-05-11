@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://i.imgur.com/ylyQZmq.gif" alt="Demo" width="500" height="600">
+<img src="https://i.imgur.com/ylyQZmq.gif" alt="Demo" width="700" height="400">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
