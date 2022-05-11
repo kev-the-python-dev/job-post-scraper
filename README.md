@@ -180,4 +180,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [license-url]: https://github.com/kev-the-python-dev/job-post-scraper/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kev-the-python-dev
-[product-screenshot]: https://imgur.com/Tv7CBfX
+[product-screenshot]: https://imgur.com/ylyQZmq
