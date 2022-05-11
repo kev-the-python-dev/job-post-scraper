@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[product-screenshot](https://imgur.com/ylyQZmq)
+<img src="https://i.imgur.com/ylyQZmq.gif" alt="Demo" width="500" height="600">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
