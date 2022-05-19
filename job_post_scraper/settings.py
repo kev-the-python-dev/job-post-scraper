@@ -68,8 +68,8 @@ ITEM_PIPELINES = {
 #config = configparser.ConfigParser()
 #config.read(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'settings.cfg'))
 #mlab_uri = config.get('MongoDB', 'mlab_uri')
-MONGODB_SERVER = 'mongodb+srv://<username>:<password>@<server url>'
-MONGODB_DB = '<db_name>'
+MONGODB_SERVER = 'mongodb+srv://<username>:<password><url>'
+MONGODB_DB = '<database_name>'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
