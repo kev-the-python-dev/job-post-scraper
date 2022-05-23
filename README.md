@@ -107,10 +107,10 @@
 
 ### Prerequisites
 
-* 
-  ```sh
-  Python
-  ```
+* [Python](https://www.python.org/)
+* [Scrapy](https://scrapy.org/)
+* [PyMongo](https://pymongo.readthedocs.io/en/stable/)
+* [MongoDB](https://www.mongodb.com/)
 
 ### Installation
 
