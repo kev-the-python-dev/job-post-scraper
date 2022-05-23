@@ -127,8 +127,8 @@ python3 scrape-jobs.py
 ```sh
 cd job_post_scraper
 nano settings.py
-<Update MONGODB_SERVER and MONGODB_DB to match your current SQL database URL and Collection name>
-cd ../..
+_<Update MONGODB_SERVER and MONGODB_DB to match your current SQL database URL and Collection name>
+_cd ../..
 python3 scrape-jobs.py
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
