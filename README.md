@@ -113,7 +113,11 @@
 * [MongoDB](https://www.mongodb.com/)
 
 ### Installation
-
+```sh
+git clone https://github.com/kev-the-python-dev/job-post-scraper.git
+pip install -r requirements.txt
+python3 scrape-jobs.py
+```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
