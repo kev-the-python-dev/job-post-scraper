@@ -10,6 +10,7 @@ class MongoPipeline(object):
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri
         self.mongo_db = mongo_db
+    
     # The Below class definitions are standard of PyMongo (view documentation).
     @classmethod
     def from_crawler(cls, crawler):
@@ -30,8 +31,10 @@ class MongoPipeline(object):
         my_query = dict(item)
         new_values = {"$set": my_query}
         print(f'my_query is {my_query}')
+        
         # insert/insert_one() may be obvious choice, but to ensure we
         # don't repeat our "job posts", upstart needs to be an argument set to True
         self.db[self.collection_name].update_one(my_query, new_values, upsert=True)
         logging.debug("Job post added to MongoDB")
+        
         return item

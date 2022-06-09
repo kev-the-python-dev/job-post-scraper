@@ -9,8 +9,9 @@ access to have all job postings in a singular place.'''
 
 # Specifically for YCombinator only
 class JobFinderSpider(Spider):
-    name = "job_post_scraper"
-    allowed_domains = ["news.ycombinator.com"]
+    
+    name = 'job_post_scraper'
+    allowed_domains = ['news.ycombinator.com']
     start_urls = [
             'https://news.ycombinator.com/jobs',
             ]
