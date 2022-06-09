@@ -36,7 +36,7 @@
 <h3 align="center">Job Post Scraper</h3>
 
   <p align="center">
-    Parses xfield elements from various job postings and saves the titles & urls to a MongoDB database. 
+    Downloads and parses YCombinator's job postings and downloads post data which is then stored in a MongoDB database.
     <br />
     <a href="https://github.com/kev-the-python-dev/job-post-scraper"><strong>Explore the docs »</strong></a>
     <br />
