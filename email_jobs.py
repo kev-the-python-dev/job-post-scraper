@@ -2,9 +2,9 @@ import smtplib
 import ssl
 
 contxt = ssl.create_default_context()
-password = 'mtmwvwauzcofavcx'
-sender = 'jobpostscraperdb@gmail.com'
-receiver = 'jobpostscraperdb@gmail.com'
+password = '#'
+sender = '#@gmail.com'
+receiver = '#@gmail.com'
 
 message = ''
 
